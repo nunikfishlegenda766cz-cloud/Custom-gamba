@@ -1,0 +1,9 @@
+name: GambaPlugin
+version: 1.0
+main: com.example.gamba.GambaPlugin
+api-version: 1.20
+commands:
+  gamba:
+    description: Správa gamba beden
+    permission: gamba.admin
+    usage: /gamba <create|givekey>
